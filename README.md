@@ -13,7 +13,8 @@ This will create the files directory for you, and will also install all of the r
 Place all of your CSV files that you want to merge in the files directory. Now you can run MAIN.py using:
 `python MAIN.py`
 This will create the database file with all of your merged data.
-Keep in mind this may take time, depending on the size of your CSV files. 
+It will also ask you to create an index for faster searching on one column. Pick a column that you will search with the most.
+Keep in mind this may take time, depending on the size of your CSV files. I had 890MB of CSV files (7 CSV files) and it took about 46 seconds.
 
 # Reading and Searching
 
