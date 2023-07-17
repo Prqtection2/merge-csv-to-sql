@@ -4,6 +4,7 @@ This program will merge multiple CSV files into one .db file, which can be expor
 # Requirements
 Python 3.10 with PIP
 Recommended: DB Browser for SQLite so you can filter and read the data if your files are massive.
+
 DB Browser for SQLite: https://sqlitebrowser.org/
 # Instructions
 You should only currently have init.py and MAIN.py in your directory. Now, run init.py by opening your terminal and running:
@@ -14,6 +15,7 @@ Place all of your CSV files that you want to merge in the files directory. Now y
 `python MAIN.py`
 This will create the database file with all of your merged data.
 It will also ask you to create an index for faster searching on one column. Pick a column that you will search with the most.
+
 Keep in mind this may take time, depending on the size of your CSV files. I had 890MB of CSV files (7 CSV files) and it took about 46 seconds.
 
 # Reading and Searching
